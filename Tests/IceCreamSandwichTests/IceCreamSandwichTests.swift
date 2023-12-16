@@ -4,14 +4,23 @@
 //
 
 import XCTest
-@testable import IcecreamSandwich
+@testable import IceCreamSandwich
 
 final class IcecreamSandwichTests: XCTestCase {
-    func testExample() throws {
-        // XCTest Documenation
-        // https://developer.apple.com/documentation/xctest
+    func testValidIcecreamSandwich() {
+        XCTAssertTrue("CDC".isIceCreamSandwich)
+        XCTAssertTrue("AABBBAA".isIceCreamSandwich)
+        XCTAssertTrue("3&&3".isIceCreamSandwich)
+    }
 
-        // Defining Test Cases and Test Methods
-        // https://developer.apple.com/documentation/xctest/defining_test_cases_and_test_methods
+    func testInvalidIcecreamSandwich() {
+        XCTAssertFalse("BBBBB".isIceCreamSandwich)
+        XCTAssertFalse("AAACCCAA".isIceCreamSandwich)
+        XCTAssertFalse("AACDCAA".isIceCreamSandwich)
+        XCTAssertFalse("A".isIceCreamSandwich)
+    }
+
+    func testEmptyString() {
+        XCTAssertFalse("".isIceCreamSandwich)
     }
 }
