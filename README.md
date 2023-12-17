@@ -6,7 +6,7 @@ Elevate your string manipulation with this Swift library designed to identify de
 
 An Ice Cream Sandwich is a string with matching and distinct left and right ends, surrounding a unique middle portion.
 
-### Examples:
+### Examples
 
 - `AABBBAA`
 - `3&&3`
@@ -23,7 +23,7 @@ An Ice Cream Sandwich is a string with matching and distinct left and right ends
 
 To use the library, include it in your Swift project and leverage the `isIceCreamSandwich` property on a string instance.
 
-```swift
+```swifteffortless identification and manipulation of delightful ice cream sandwich patterns in strings.
 import IceCreamSandwich
 
 let smileySandwich = "😊😊🍦😊😊"
@@ -43,7 +43,7 @@ if smileySandwich.isIceCreamSandwich {
 2. Enter the URL: `https://github.com/jaroshevskii/swift-ice-cream-sandwich.git`
 3. Specify the desired version or use the latest, and follow the installation prompts.
 
-For more information on adding Swift packages to Xcode, you can read the [Hacking with Swift tutorial](https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode).
+For more information on adding Swift Packages to Xcode, you can read the [Hacking with Swift tutorial](https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode).
 
 ### Swift Package Manager
 
@@ -60,7 +60,7 @@ For more information on adding Swift packages to Xcode, you can read the [Hackin
 
 2. Run `swift build` to fetch and integrate the package into your project.
 
-### Manual Installation
+### Manual
 
 If you prefer manual installation, copy the [String+IceCreamSandwich.swift](Sources/IceCreamSandwich/Extentions/String/String%2BIcecreamSandwich.swift) file into your project.
 
