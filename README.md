@@ -29,7 +29,7 @@ An Ice Cream Sandwich is a string with matching and distinct left and right ends
 
 To use the library, include it in your Swift project and leverage the `isIceCreamSandwich` property on a string instance.
 
-```swifteffortless identification and manipulation of delightful ice cream sandwich patterns in strings.
+```swift
 import IceCreamSandwich
 
 let smileySandwich = "😊😊🍦😊😊"
