@@ -1,4 +1,4 @@
-> **Language**: 🇺🇸 English | 🇺🇦 [Українська](README.uk.md) | 🇯🇵 [日本語](README.ja.md)
+<!-- > **Language**: 🇺🇸 English | 🇺🇦 [Українська](README.uk.md) | 🇯🇵 [日本語](README.ja.md) -->
 
 # 🍨 IceCreamSandwich
 
