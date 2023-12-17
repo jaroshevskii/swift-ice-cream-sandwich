@@ -76,4 +76,4 @@ Feel free to contribute, report issues, or suggest improvements! Let's make IceC
 
 ## License
 
-Licensed under the [MIT License](LICENSE.txt).
+Licensed under the [MIT license](LICENSE.txt).
