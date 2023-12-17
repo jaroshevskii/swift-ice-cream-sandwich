@@ -39,8 +39,8 @@ if smileySandwich.isIceCreamSandwich {
 
 ### Xcode
 
-1. In Xcode, go to File > Swift Packages > Add Package Dependency...
-2. Enter the URL: https://github.com/jaroshevskii/swift-ice-cream-sandwich.git
+1. In Xcode, go to `File` > `Swift Packages` > `Add Package Dependency...`
+2. Enter the URL: `https://github.com/jaroshevskii/swift-ice-cream-sandwich.git`
 3. Specify the desired version or use the latest, and follow the installation prompts.
 
 For more information on adding Swift packages to Xcode, you can read the [Hacking with Swift tutorial](https://www.hackingwithswift.com/books/ios-swiftui/adding-swift-package-dependencies-in-xcode).
@@ -51,7 +51,7 @@ For more information on adding Swift packages to Xcode, you can read the [Hackin
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/example/repo.git", from: "1.0.0"),
+    .package(url: "https://github.com/jaroshevskii/ice-cream-snadwich.git", from: "1.0.0"),
 ],
 targets: [
     .target(name: "YourTarget", dependencies: ["IceCreamSandwich"]),
