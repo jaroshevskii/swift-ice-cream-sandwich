@@ -55,14 +55,14 @@ For more information on adding Swift Packages to Xcode, you can read the [Hackin
 
 1. Add IceCreamSandwich to your Package.swift file as a dependency:
     
-    ```swift
-    dependencies: [
-        .package(url: "https://github.com/jaroshevskii/ice-cream-snadwich.git", from: "1.0.0"),
-    ],
-    targets: [
-        .target(name: "YourTarget", dependencies: ["IceCreamSandwich"]),
-    ]
-    ```
+   ```swift
+   dependencies: [
+       .package(url: "https://github.com/jaroshevskii/ice-cream-snadwich.git", from: "1.0.0"),
+   ],
+   targets: [
+       .target(name: "YourTarget", dependencies: ["IceCreamSandwich"]),
+   ]
+   ```
 
 2. Run `swift build` to fetch and integrate the package into your project.
 
