@@ -11,16 +11,22 @@ extension String {
     /// The middle is a third set of characters different from the first two ends.
     ///
     /// Examples of Ice Cream Sandwich:
-    /// - "AABBBAA"
-    /// - "3&&3"
-    /// - "yyyyymmmmmmmmyyyyy"
-    /// - "hhhhhhhhmhhhhhhhh"
+    /// 
+    /// ```swift
+    /// "AABBBAA"`
+    /// "3&&3"
+    /// "yyyyymmmmmmmmyyyyy"
+    /// "hhhhhhhhmhhhhhhhh"
+    /// ```
     ///
     /// Examples not considered Ice Cream Sandwich:
-    /// - "BBBBB" // Cannot have only filling without the sandwich
-    /// - "AAACCCAA" // Ends must be of equal length
-    /// - "AACDCAA" // The filling cannot contain different characters
-    /// - "A" // The sandwich must have a minimum length of 3 characters
+    /// 
+    /// ```swift
+    /// "BBBBB" // Cannot have only filling without the sandwich
+    /// "AAACCCAA" // Ends must be of equal length
+    /// "AACDCAA" // The filling cannot contain different characters
+    /// "A" // The sandwich must have a minimum length of 3 characters
+    /// ```
     var isIceCreamSandwich: Bool {
         guard count >= 3 else { return false }
 
