@@ -1,6 +1,8 @@
 # 🍨 IceCreamSandwich
 
-Elevate your string manipulation with this Swift library designed to identify delightful ice cream sandwich patterns within strings.
+The IceCreamSandwich library is a string manipulation tool specifically designed to detect Ice Cream Sandwich patterns in strings.
+
+It was originally created to complete the first task in Chapter 1 of the [aCode C++ Practice Tasks](https://acode.com.ua/praktika-cpp-1/#toc-0).
 
 ## Ice Cream Sandwich Defined
 
