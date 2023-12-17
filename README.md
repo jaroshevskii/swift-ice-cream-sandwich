@@ -4,7 +4,7 @@ Elevate your string manipulation with this Swift library designed to identify de
 
 ## Ice Cream Sandwich Defined
 
-An ice cream sandwich is a string with matching and distinct left and right ends, surrounding a unique middle portion.
+An Ice Cream Sandwich is a string with matching and distinct left and right ends, surrounding a unique middle portion.
 
 ### Examples:
 
@@ -21,7 +21,7 @@ An ice cream sandwich is a string with matching and distinct left and right ends
 
 ## Usage
 
-To use the library, include it in your Swift project and leverage the isIceCreamSandwich property on a string instance.
+To use the library, include it in your Swift project and leverage the `isIceCreamSandwich` property on a string instance.
 
 ```swift
 import IceCreamSandwich
@@ -29,9 +29,9 @@ import IceCreamSandwich
 let smileySandwich = "😊😊🍦😊😊"
 
 if smileySandwich.isIceCreamSandwich {
-    print("Yay! You've created a smiley ice cream sandwich!")
+    print("Yay! You've created a Ice Cream Sandwich!")
 } else {
-    print("Oops! Your smiley arrangement doesn't form an ice cream sandwich.")
+    print("Oops! Your arrangement doesn't form an Ice Cream Sandwich.")
 }
 ```
 
