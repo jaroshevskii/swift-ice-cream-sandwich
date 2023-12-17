@@ -64,6 +64,10 @@ targets: [
 
 If you prefer manual installation, copy the [String+IceCreamSandwich.swift](Sources/IceCreamSandwich/Extentions/String/String%2BIcecreamSandwich.swift) file into your project.
 
-### Contributions
+## Contributions
 
 Feel free to contribute, report issues, or suggest improvements! Let's make IceCreamSandwich even more delightful.
+
+## License
+
+Licensed under the [MIT License](LICENSE.txt).
