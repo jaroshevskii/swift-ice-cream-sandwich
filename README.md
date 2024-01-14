@@ -66,10 +66,6 @@ For more information on adding Swift Packages to Xcode, you can read the [Hackin
 
 2. Run `swift build` to fetch and integrate the package into your project.
 
-### Manual
-
-If you prefer manual installation, copy the [String+IceCreamSandwich.swift](Sources/IceCreamSandwich/Extentions/String/String%2BIcecreamSandwich.swift) file into your project.
-
 ## Contributions
 
 Feel free to contribute, report issues, or suggest improvements! Let's make IceCreamSandwich even more delightful.
