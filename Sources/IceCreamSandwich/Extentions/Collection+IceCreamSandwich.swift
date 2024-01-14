@@ -4,11 +4,11 @@
 //
 
 public extension Collection where Element: Hashable {
-    /// Determines whether a given entity follows the pattern of an Ice Cream Sandwich.
+    /// Determines whether the collection follows the pattern of an Ice Cream Sandwich.
     ///
-    /// An Ice Cream Sandwich pattern consists of three distinct segments, where both the
-    /// outer segments are identical and composed of repeated elements, and the middle
-    /// segment is different from the outer ones.
+    /// An Ice Cream Sandwich pattern consists of three distinct segments. The outer segments are
+    /// identical and composed of repeated elements, while the middle segment is different from
+    /// the outer ones.
     ///
     /// Examples of Ice Cream Sandwich entities:
     /// 
