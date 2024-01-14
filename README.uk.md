@@ -2,6 +2,9 @@
 
 # 🍨 IceCreamSandwich
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Fswift-ice-cream-sandwich%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/jaroshevskii/swift-ice-cream-sandwich)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Fswift-ice-cream-sandwich%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/jaroshevskii/swift-ice-cream-sandwich)
+
 IceCreamSandwich - це універсальна бібліотека Swift, призначена для виявлення шаблонів Ice Cream Sandwich у рядках, колекціях та цілих числах. Спочатку її було створено для виконання першого завдання з глави 1 [aCode C++ Практичні завдання](https://acode.com.ua/praktika-cpp-1/#toc-0).
 
 IceCreamSandwich легко обробляє колекції та цілі числа за допомогою розширень, які відповідають протоколам Hashable та BinaryInteger.
