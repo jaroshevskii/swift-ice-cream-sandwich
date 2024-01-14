@@ -7,20 +7,53 @@ import XCTest
 @testable import IceCreamSandwich
 
 final class IcecreamSandwichTests: XCTestCase {
-    func testValidIcecreamSandwich() {
-        XCTAssertTrue("CDC".isIceCreamSandwich)
-        XCTAssertTrue("AABBBAA".isIceCreamSandwich)
-        XCTAssertTrue("3&&3".isIceCreamSandwich)
+    func testStringIceCreamSandwich() {
+        XCTAssertTrue("AABBA".isIceCreamSandwich)
+    }
+    
+    func testArrayIceCreamSandwich() {
+        XCTAssertTrue([1, 2, 2, 1].isIceCreamSandwich)
+    }
+    
+    func testBoolArrayIceCreamSandwich() {
+        XCTAssertTrue([true, true, false, true, true].isIceCreamSandwich)
     }
 
-    func testInvalidIcecreamSandwich() {
-        XCTAssertFalse("BBBBB".isIceCreamSandwich)
-        XCTAssertFalse("AAACCCAA".isIceCreamSandwich)
-        XCTAssertFalse("AACDCAA".isIceCreamSandwich)
-        XCTAssertFalse("A".isIceCreamSandwich)
+    func testStringNotIceCreamSandwich() {
+        XCTAssertFalse("ABBA".isIceCreamSandwich)
+    }
+    
+    func testArrayNotIceCreamSandwich() {
+        XCTAssertFalse([1, 2, 3, 1].isIceCreamSandwich)
+    }
+    
+    func testBoolArrayNotIceCreamSandwich() {
+        XCTAssertFalse([false, true, false].isIceCreamSandwich)
+    }
+    
+    func testTooShortCollection() {
+        XCTAssertFalse("AA".isIceCreamSandwich)
+    }
+    
+    func testIntegerIceCreamSandwich() {
+        XCTAssertTrue(11211.isIceCreamSandwich)
+    }
+    
+    func testAnotherIntegerIceCreamSandwich() {
+        XCTAssertTrue(1221.isIceCreamSandwich)
     }
 
-    func testEmptyString() {
+    func testIntegerNotIceCreamSandwich() {
+        XCTAssertFalse(121.isIceCreamSandwich)
+    }
+    
+    func testAnotherIntegerNotIceCreamSandwich() {
+        XCTAssertFalse(1231.isIceCreamSandwich)
+    }
+
+    func testEmptyCollection() {
         XCTAssertFalse("".isIceCreamSandwich)
+        XCTAssertFalse([Int]().isIceCreamSandwich)
+        XCTAssertFalse([Bool]().isIceCreamSandwich)
     }
 }
