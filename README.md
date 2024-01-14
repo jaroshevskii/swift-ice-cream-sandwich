@@ -1,23 +1,22 @@
-<!-- > **Language**: 🇺🇸 English | 🇺🇦 [Українська](README.uk.md) | 🇯🇵 [日本語](README.ja.md) -->
+> **Language**: 🇺🇸 English | 🇺🇦 [Українська](README.uk.md) | 🇯🇵 [日本語](README.ja.md)
 
 # 🍨 IceCreamSandwich
 
-The IceCreamSandwich library is a string manipulation tool specifically designed to detect Ice Cream Sandwich patterns in strings.
+IceCreamSandwich is a versatile Swift library designed to identify Ice Cream Sandwich patterns within strings, collections, and integers. Originally created for the first task in Chapter 1 of the [aCode C++ Practice Tasks](https://acode.com.ua/praktika-cpp-1/#toc-0).
 
-It was originally created to complete the first task in Chapter 1 of the [aCode C++ Practice Tasks](https://acode.com.ua/praktika-cpp-1/#toc-0).
+IceCreamSandwich seamlessly handles collections and integers through extensions that conform to the Hashable and BinaryInteger protocols.
 
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
 
 ## Definition
 
-An Ice Cream Sandwich is a string with matching and distinct left and right ends, surrounding a unique middle portion.
+An Ice Cream Sandwich is a pattern with matching and distinct left and right ends, enveloping a unique middle portion.
 
 ### Examples
 
-- `AABBBAA`
-- `3&&3`
-- `yyyyymmmmmmmmyyyyy`
-- `hhhhhhhhmhhhhhhhh`
+- `"AABBBAA"`
+- `[1, 2, 3, 3, 2, 1]`
+- `505`
 
 ### Criteria
 
@@ -27,17 +26,33 @@ An Ice Cream Sandwich is a string with matching and distinct left and right ends
 
 ## Usage
 
-To use the library, include it in your Swift project and leverage the `isIceCreamSandwich` property on a string instance.
+To use the IceCreamSandwich library, include it in your project and utilize the `isIceCreamSandwich` property on instances.
 
 ```swift
 import IceCreamSandwich
 
+// String
 let smileySandwich = "😊😊🍦😊😊"
-
 if smileySandwich.isIceCreamSandwich {
-    print("Yay! You've created a Ice Cream Sandwich!")
+    print("Yay! You've created an Ice Cream Sandwich!")
 } else {
     print("Oops! Your arrangement doesn't form an Ice Cream Sandwich.")
+}
+
+// Collection
+let numberSandwich = [1, 2, 3, 3, 2, 1]
+if numberSandwich.isIceCreamSandwich {
+    print("Congratulations! You've assembled a numeric Ice Cream Sandwich!")
+} else {
+    print("Oops! Your arrangement doesn't form a numeric Ice Cream Sandwich.")
+}
+
+// Integer
+let integerSandwich = 505
+if integerSandwich.isIceCreamSandwich {
+    print("Awesome! You've crafted a numeric Ice Cream Sandwich!")
+} else {
+    print("Oops! Your numeric arrangement doesn't form an Ice Cream Sandwich.")
 }
 ```
 
