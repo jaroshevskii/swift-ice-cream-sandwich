@@ -8,7 +8,7 @@ It was originally created to complete the first task in Chapter 1 of the [aCode 
 
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
 
-## Ice Cream Sandwich Defined
+## Definition
 
 An Ice Cream Sandwich is a string with matching and distinct left and right ends, surrounding a unique middle portion.
 
