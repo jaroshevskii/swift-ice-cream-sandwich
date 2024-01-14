@@ -13,7 +13,7 @@ public extension Collection where Element: Hashable {
     /// Examples of Ice Cream Sandwich entities:
     /// 
     /// ```swift
-    /// "AABBA"
+    /// "AABBAA"
     /// [1, 2, 2, 1]
     /// true, true, false, true, true
     /// ```
@@ -21,9 +21,9 @@ public extension Collection where Element: Hashable {
     /// Examples not considered Ice Cream Sandwich:
     /// 
     /// ```swift
-    /// "ABBA" // Outer segments must be identical
+    /// "ABB" // Outer segments must be identical
     /// [1, 2, 3, 1] // Must have three segments
-    /// false, true, false // Fails to meet the pattern requirements
+    /// false, false // Fails to meet the pattern requirements
     /// ```
     var isIceCreamSandwich: Bool {
         guard count >= 3 else { return false }

@@ -8,7 +8,7 @@ import XCTest
 
 final class IcecreamSandwichTests: XCTestCase {
     func testStringIceCreamSandwich() {
-        XCTAssertTrue("AABBA".isIceCreamSandwich)
+        XCTAssertTrue("AABBAA".isIceCreamSandwich)
     }
     
     func testArrayIceCreamSandwich() {
@@ -20,7 +20,7 @@ final class IcecreamSandwichTests: XCTestCase {
     }
 
     func testStringNotIceCreamSandwich() {
-        XCTAssertFalse("ABBA".isIceCreamSandwich)
+        XCTAssertFalse("ABB".isIceCreamSandwich)
     }
     
     func testArrayNotIceCreamSandwich() {
@@ -28,7 +28,7 @@ final class IcecreamSandwichTests: XCTestCase {
     }
     
     func testBoolArrayNotIceCreamSandwich() {
-        XCTAssertFalse([false, true, false].isIceCreamSandwich)
+        XCTAssertFalse([false, false].isIceCreamSandwich)
     }
     
     func testTooShortCollection() {
@@ -44,7 +44,7 @@ final class IcecreamSandwichTests: XCTestCase {
     }
 
     func testIntegerNotIceCreamSandwich() {
-        XCTAssertFalse(121.isIceCreamSandwich)
+        XCTAssertFalse(12.isIceCreamSandwich)
     }
     
     func testAnotherIntegerNotIceCreamSandwich() {

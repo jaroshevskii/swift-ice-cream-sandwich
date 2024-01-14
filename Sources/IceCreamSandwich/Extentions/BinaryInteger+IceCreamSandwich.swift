@@ -21,7 +21,7 @@ public extension BinaryInteger {
     /// Examples not considered Ice Cream Sandwich:
     ///
     /// ```swift
-    /// 121 // Does not have three segments
+    /// 12 // Does not have three segments
     /// 1231 // Does not have identical outer segments
     /// 10011 // Does not have identical outer segments
     /// ```
