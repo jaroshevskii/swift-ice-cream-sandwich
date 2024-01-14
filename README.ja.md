@@ -5,6 +5,9 @@
 
 # 🍨 IceCreamSandwich
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Fswift-ice-cream-sandwich%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/jaroshevskii/swift-ice-cream-sandwich)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Fswift-ice-cream-sandwich%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/jaroshevskii/swift-ice-cream-sandwich)
+
 IceCreamSandwich は、文字列、コレクション、整数内の Ice Cream Sandwich パターンを識別するために設計された、多目的な Swift ライブラリです。元々は、[aCode C++ 練習用タスク](https://acode.com.ua/praktika-cpp-1/#toc-0) の第1章の最初のタスクのために作成されました。
 
 IceCreamSandwich は、Hashable プロトコルと BinaryInteger プロトコルに準拠した拡張を通して、コレクションと整数をシームレスに扱います。
