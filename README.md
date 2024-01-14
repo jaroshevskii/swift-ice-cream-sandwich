@@ -2,6 +2,9 @@
 
 # 🍨 IceCreamSandwich
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Fswift-ice-cream-sandwich%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/jaroshevskii/swift-ice-cream-sandwich)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fjaroshevskii%2Fswift-ice-cream-sandwich%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/jaroshevskii/swift-ice-cream-sandwich)
+
 IceCreamSandwich is a versatile Swift library designed to identify Ice Cream Sandwich patterns within strings, collections, and integers. Originally created for the first task in Chapter 1 of the [aCode C++ Practice Tasks](https://acode.com.ua/praktika-cpp-1/#toc-0).
 
 IceCreamSandwich seamlessly handles collections and integers through extensions that conform to the Hashable and BinaryInteger protocols.
