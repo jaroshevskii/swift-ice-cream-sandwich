@@ -77,7 +77,7 @@ if integerSandwich.isIceCreamSandwich {
    let package = Package(
         // name, platforms, products і т.д.
         dependencies: [
-            .package(url: "https://github.com/apple/swift-argument-parser", from: "1.0.0"),
+            .package(url: "https://github.com/jaroshevskii/swift-ice-cream-sandwich.git", from: "1.0.0"),
         ],
         targets: [
             .target(
