@@ -72,14 +72,21 @@ For more information on adding Swift Packages to Xcode, you can read the [Hackin
 ### Swift Package Manager
 
 1. Add IceCreamSandwich to your Package.swift file as a dependency:
-    
+
    ```swift
-   dependencies: [
-       .package(url: "https://github.com/jaroshevskii/ice-cream-snadwich.git", from: "1.0.0"),
-   ],
-   targets: [
-       .target(name: "YourTarget", dependencies: ["IceCreamSandwich"]),
-   ]
+   let package = Package(
+        // name, platforms, products, etc.
+        dependencies: [
+            .package(url: "https://github.com/apple/swift-argument-parser", from: "1.0.0"),
+        ],
+        targets: [
+            .target(
+                name: "YourTargetName",
+                dependencies: [
+                    .product(name: "IceCreamSandwich", package: "swift-ice-cream-sandwich"),
+                ]),
+        ]
+    )
    ```
 
 2. Run `swift build` to fetch and integrate the package into your project.

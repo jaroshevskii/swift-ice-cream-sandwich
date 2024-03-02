@@ -76,13 +76,20 @@ Xcode に Swift Packages を追加する詳細については、[Hacking with Sw
 
 1. 依存関係として IceCreamSandwich を Package.swift ファイルに追加します：
     
-   ```swift
-   dependencies: [
-       .package(url: "https://github.com/jaroshevskii/ice-cream-snadwich.git", from: "1.0.0"),
-   ],
-   targets: [
-       .target(name: "YourTarget", dependencies: ["IceCreamSandwich"]),
-   ]
+      ```swift
+   let package = Package(
+        // name, platforms, products, など
+        dependencies: [
+            .package(url: "https://github.com/apple/swift-argument-parser", from: "1.0.0"),
+        ],
+        targets: [
+            .target(
+                name: "YourTargetName",
+                dependencies: [
+                    .product(name: "IceCreamSandwich", package: "swift-ice-cream-sandwich"),
+                ]),
+        ]
+    )
    ```
 
 2. `swift build` を実行してパッケージを取得し、プロジェクトに統合する。
