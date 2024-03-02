@@ -9,15 +9,10 @@ import PackageDescription
 let package = Package(
     name: "IceCreamSandwich",
     products: [
-        .library(
-            name: "IceCreamSandwich",
-            targets: ["IceCreamSandwich"]),
+        .library(name: "IceCreamSandwich", targets: ["IceCreamSandwich"]),
     ],
     targets: [
-       .target(
-            name: "IceCreamSandwich"),
-        .testTarget(
-            name: "IceCreamSandwichTests",
-            dependencies: ["IceCreamSandwich"]),
+        .target(name: "IceCreamSandwich"),
+        .testTarget(name: "IceCreamSandwichTests", dependencies: ["IceCreamSandwich"]),
     ]
 )
